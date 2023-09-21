@@ -18,10 +18,16 @@ body{
   width: 100%;
 }
 header{
-  position: relative;
+  position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(31,30,30,0.24);
 }
-.navbar{
-  background: rgba(31, 30, 30, 0.808) !important;
+/*.navbar{
+  background: rgba(31, 30, 30, 0.808) !important;*/
 }
 .navbar-nav{
   height: 10vh;
@@ -31,9 +37,9 @@ li{
   font-size: 100% !important;
 }
 #icon{
-position: absolute;
+/*position: absolute;*
 bottom: 50%;
-top: -120%;
+top: 10em;
 }
 
 
